@@ -11,6 +11,7 @@
 		F8AF96B12A4DE5870032A19C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF96B02A4DE5870032A19C /* ViewController.swift */; };
 		F8AF96B42A4DE5870032A19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AF96B22A4DE5870032A19C /* Main.storyboard */; };
 		F8AF96B62A4DE5870032A19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AF96B52A4DE5870032A19C /* Assets.xcassets */; };
+		F8AF96BE2A4DED850032A19C /* SpareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF96BD2A4DED850032A19C /* SpareController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F8AF96B32A4DE5870032A19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8AF96B52A4DE5870032A19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AF96B72A4DE5870032A19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AF96BD2A4DED850032A19C /* SpareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpareController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F8AF96B22A4DE5870032A19C /* Main.storyboard */,
 				F8AF96B52A4DE5870032A19C /* Assets.xcassets */,
 				F8AF96B72A4DE5870032A19C /* Info.plist */,
+				F8AF96BD2A4DED850032A19C /* SpareController.swift */,
 			);
 			path = Euclid;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			files = (
 				F8AF96B12A4DE5870032A19C /* ViewController.swift in Sources */,
 				F8AF96AF2A4DE5870032A19C /* AppDelegate.swift in Sources */,
+				F8AF96BE2A4DED850032A19C /* SpareController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -285,6 +290,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
